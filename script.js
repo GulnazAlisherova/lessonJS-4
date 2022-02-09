@@ -14,5 +14,5 @@ example3Button.addEventListener('click', function(){ // добавить слу�
 
 let example4Button = document.querySelectorById('#example4');
 example4Button.addEventListener('click', function(){ 
-  alert("Bye!");
+  example4Button.textContent = "Nice to meet you";
 })
