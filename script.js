@@ -58,4 +58,5 @@ example6Div.addEventListener('click', function(){
 //   this.remove();
 // });
 
-let example8Button
+let example8Button = document.querySelector('#example8');
+function example8Action()
