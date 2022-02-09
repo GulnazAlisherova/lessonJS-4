@@ -50,6 +50,6 @@ example6Div.addEventListener('click', function(){
 });
 
 let example7Div = document.querySelector('#example7');
-example7Div.addEventListener('click', function(){
+example7Div.addEventListener('click', function(){ //слушатель событий
   example7Div.remove();
 });
