@@ -4,6 +4,6 @@ example2Button.onclick = function() { // при нажатии
 }
 
 let example3Button = document.getElementById('example3');
-example3Button.addEventListener('click', function(){ //
+example3Button.addEventListener('click', function(){ // добавить слушатель события 
   alert("Bye!");
 })
