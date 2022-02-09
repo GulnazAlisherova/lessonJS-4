@@ -36,3 +36,11 @@ increaseButton.addEventListener('click', function(){
   //num += 1;
   //num++ ;
 });
+
+let decreaseButton = document.querySelector('#decrease');
+decreaseButton.addEventListener('click', function(){
+  num = num - 1;
+  h1.textContent = num; 
+  //num -= 1;
+  //num-- ;
+});
