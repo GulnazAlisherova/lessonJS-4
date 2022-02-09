@@ -17,3 +17,7 @@ example4Button.addEventListener('click', function(){
   example4Button.textContent = "Nice to meet you!";
 })
 
+let example5Button = document.getElementById('example5');
+example5Button.addEventListener('click', function(){ 
+  alert("Bye!");
+})
