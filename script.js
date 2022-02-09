@@ -23,3 +23,7 @@ example5Div.addEventListener('click', function() {
 });
 
 let num = 0;
+let resetButton = document.getElementById('#reset');
+resetButton.addEventListener('click', function(){ 
+  alert("Bye!");
+});
