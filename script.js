@@ -17,8 +17,8 @@ example4Button.addEventListener('click', function() {
   example4Button.textContent = "Nice to meet you!";
 });
 
-
 let example5Div = document.querySelectorById('#example5');
 example5Div.addEventListener('click', function() { 
   alert(example5Div.textContent.length);
 });
+
