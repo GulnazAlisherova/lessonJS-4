@@ -65,4 +65,6 @@ function example8Action() {
 }
 example8Button.addEventListener('click', example8Action);
 
-document.getElementById('level3').addEventListener('click',function)
+document.getElementById('level3').addEventListener('click',function(){
+  alert("Level 3 clicked");
+});
