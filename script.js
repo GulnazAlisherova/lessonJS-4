@@ -10,3 +10,4 @@ example3Button.addEventListener('click', function(){ // добавить слу�
 example3Button.addEventListener('click', function(){ // добавить слушатель события 
   alert("I just kidding");
 })
+
