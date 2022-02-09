@@ -11,3 +11,8 @@ example3Button.addEventListener('click', function(){ // добавить слу�
   alert("I just kidding");
 })
 
+
+let example4Button = document.getElementById('example4');
+example4Button.addEventListener('click', function(){ // добавить слушатель события 
+  alert("Bye!");
+})
