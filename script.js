@@ -11,7 +11,6 @@
 //   alert("I just kidding");
 // });
 
-
 // let example4Button = document.querySelectorById('#example4');
 // example4Button.addEventListener('click', function() { 
 //   example4Button.textContent = "Nice to meet you!";
@@ -33,6 +32,7 @@ resetButton.addEventListener('click', function(){
 let increaseButton = document.querySelector('#increase');
 increaseButton.addEventListener('click', function(){
   num = num + 1;
+  h1.textContent = num; 
   //num += 1;
   //num++ ;
 });
