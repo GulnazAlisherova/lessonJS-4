@@ -30,9 +30,9 @@ resetButton.addEventListener('click', function(){
    h1.textContent = num; 
 });
 
-let increase = 5;
-let increaseButton = document.querySelector('+');
 let increaseButton = document.querySelector('#increase');
 increaseButton.addEventListener('click', function(){
-  
+  num = num + 1;
+  //num += 1;
+  //num++ ;
 });
