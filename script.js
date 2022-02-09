@@ -64,3 +64,5 @@ function example8Action() {
   example8Button.removeEventListener('click', example8Action);
 }
 example8Button.addEventListener('click', example8Action);
+
+document.getElementById('level')
