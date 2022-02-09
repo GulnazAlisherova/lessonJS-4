@@ -55,5 +55,5 @@ example7Div.addEventListener('click', function(){ //слушатель собы�
 });
 
 document.querySelector('#example7').addEventListener('click', function{
-  this.
+  this.remove();
 })
