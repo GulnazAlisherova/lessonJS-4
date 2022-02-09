@@ -49,11 +49,13 @@ example6Div.addEventListener('click', function(){
   example6Div.style.color = `rgb(${Math.random() * 255}, ${Math.random() * 255},  ${Math.random() * 255})`;
 });
 
-let example7Div = document.querySelector('#example7');
-example7Div.addEventListener('click', function(){ //слушатель событий
-  example7Div.remove();
-});
+ let example7Div = document.querySelector('#example7');
+ example7Div.addEventListener('click', function(){ //слушатель событий
+   example7Div.remove();
+ });
 
-document.querySelector('#example7').addEventListener('click', function{
-  this.remove();
-})
+// document.querySelector('#example7').addEventListener('click', function{
+//   this.remove();
+// });
+
+let example8Button
