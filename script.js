@@ -30,10 +30,9 @@ resetButton.addEventListener('click', function(){
    h1.textContent = num; 
 });
 
-let num = 5;
-let increaseButton = document.querySelector('h1');
-let increaseButton = document.querySelector('#reset');
-resetButton.addEventListener('click', function(){
-  //h1.textContent = "Nice to meet you";
-   h1.textContent = num; 
+let increase = 5;
+let increaseButton = document.querySelector('+');
+let increaseButton = document.querySelector('#increase');
+increaseButton.addEventListener('click', function(){
+  
 });
