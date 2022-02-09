@@ -23,7 +23,8 @@ example5Div.addEventListener('click', function() {
 });
 
 let num = 0;
-let resetButton = document.getElementById('#reset');
-resetButton.addEventListener('click', function(){ 
-  alert("Bye!");
-});
+let h1 = document.querySelector('h1');
+let resetButton = document.querySelector('#reset');
+resetButton.addEventListener('click', function(){
+  h1.textContent = "Nice to meet you"
+})
