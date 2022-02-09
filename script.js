@@ -3,3 +3,7 @@ example2Button.onclick = function() { // при нажатии
   alert("Nice to meet you");
 }
 
+let example3Button = document.getElementById('example3');
+example3Button.addEventListener('click', function(){
+  alert("Bye!");
+})
