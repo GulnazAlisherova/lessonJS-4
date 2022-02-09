@@ -54,3 +54,4 @@ example7Div.addEventListener('click', function(){ //слушатель собы�
   example7Div.remove();
 });
 
+document.querySelector('#example7 ')
