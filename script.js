@@ -41,5 +41,6 @@ increaseButton.addEventListener('click', function(){
 let decreaseButton = document.querySelector('#decrease');
 decreaseButton.addEventListener('click', function(){
   num = num - 1;
-  h1.textContent = num; //
+  h1.textContent = num;   
 });
+
