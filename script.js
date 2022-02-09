@@ -63,3 +63,4 @@ function example8Action() {
   alert("hello");
   example8Button.removeEventListener('click', example8Action);
 }
+example8Button.addEventListener('click', example8Action);
