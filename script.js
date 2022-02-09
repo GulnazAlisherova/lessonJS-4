@@ -59,4 +59,7 @@ example6Div.addEventListener('click', function(){
 // });
 
 let example8Button = document.querySelector('#example8');
-function example8Action()
+function example8Action() {
+  alert("hello");
+  example8Button.removeEventListener('click', example8Action);
+}
