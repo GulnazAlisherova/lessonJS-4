@@ -78,4 +78,11 @@ document.getElementById('level1').addEventListener('click',function(){
 
 
 let countdown = 3;
-let example8Button.
+let example8Button.document.querySelector('#example8');
+function example8Action(){
+  countdown = countdown - 1;
+  alert(`hello ${countdown}`);
+  if (countdown === 0 ) {
+    example8Button.removeEventListener
+  }
+}
