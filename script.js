@@ -49,7 +49,7 @@ example6Div.addEventListener('click', function(){
   example6Div.style.color = `rgb(${Math.random() * 255}, ${Math.random() * 255},  ${Math.random() * 255})`;
 });
 
-let example6Div = document.querySelector('#example6');
-example6Div.addEventListener('click', function(){
-  example6Div.style.color = `rgb(${Math.random() * 255}, ${Math.random() * 255},  ${Math.random() * 255})`;
+let example7Div = document.querySelector('#example7');
+example7Div.addEventListener('click', function(){
+  example7Div.remove();
 });
