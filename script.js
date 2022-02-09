@@ -26,6 +26,7 @@ let h1 = document.querySelector('h1');
 let resetButton = document.querySelector('#reset');
 resetButton.addEventListener('click', function(){
   //h1.textContent = "Nice to meet you";
+   num = 0;
    h1.textContent = num; 
 });
 
@@ -40,7 +41,8 @@ increaseButton.addEventListener('click', function(){
 let decreaseButton = document.querySelector('#decrease');
 decreaseButton.addEventListener('click', function(){
   num = num - 1;
-  h1.textContent = num; 
+  h1.textContent = num;
+
   //num -= 1;
   //num-- ;
 });
